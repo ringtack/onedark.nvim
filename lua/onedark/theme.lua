@@ -95,7 +95,7 @@ theme.setup = function(cfg)
     Boolean = { fg = c.orange1 }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = c.red1, style = cfg.variable_style }, -- (preferred) any variable name
+    Identifier = { fg = c.fg_light, style = cfg.variable_style }, -- (preferred) any variable name
     Function = { fg = c.blue0, style = cfg.function_style }, -- function name (also: methods for classes)
     Method = { link = 'Function' }, -- method name
     Statement = { fg = c.purple0 }, -- (preferred) any statement
